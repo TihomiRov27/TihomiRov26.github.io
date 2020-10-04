@@ -1,0 +1,1015 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*header
+====================*/
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	font-family: Oswald;
+}
+
+.menu {
+	text-align: center;
+	margin-top: 33px;
+}
+
+.head a {
+	margin-right: 155px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #828282;
+}
+
+.head a span {
+	color: #070707;
+}
+
+.head a:hover {
+	color: #070707;
+	transition: 1s ease;
+}
+
+.head a:last-child {
+    margin-right: 0px;
+}
+
+.burger {
+	display: none;
+}
+
+.header__list {
+	display: none;
+}
+
+.hr {
+	margin-top: 32px;
+	border: 1px solid #828282;
+}
+
+/*slaid__1
+====================*/
+
+.prof {
+	justify-content: center;
+	display: flex;
+}
+
+.name {
+	margin-top: 38px;
+	font-size: 50px;
+}
+
+.adress {
+	justify-content: center;
+	margin: 0 300px;
+	text-align: center;
+	margin-top: 125px;
+	font-size: 18px;
+}
+
+.logo {
+	margin-left: 50px;
+	color: #828282;
+	margin-top: 107px;
+	font-size: 16px;
+	transform: rotate(-90deg);
+}
+
+.logo span {
+	color: #070707;
+}
+
+/*slaider
+====================*/
+
+.slideshow-container {
+	text-align: center;
+	margin-top: 54px;
+	position: relative;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.prev {
+	left: 114px;
+}
+
+.next {
+	right: 115px;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from{opacity: .4}
+	to{opacity: 1}
+}
+
+@keyframes fade {
+	from{opacity: .4}
+	to{opacity: 1}
+}
+
+.phone {
+	display: none;
+}
+
+/*slaid__2
+====================*/
+
+.About__me {
+	text-align: center;
+	margin-top: 104px;
+	background: #F6F6F6;
+	font-family: Oswald;
+}
+
+.about {
+	font-size: 34px;
+	color: #070707;
+	padding-top: 100px;
+	margin-bottom: 17px;
+	line-height: 42px;
+}
+
+.text {
+	padding-bottom: 100px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.into {
+	margin-bottom: 25px;
+}
+
+/*slaid__3
+====================*/
+
+.skills {
+	text-align: center;
+	font-family: Oswald;
+}
+
+.skill {
+	margin-top: 91px;
+	margin-bottom: 69.1px;
+	font-size: 34px;
+    line-height: 42px;
+}
+
+.work {
+	font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 83.5px;
+}
+
+.setting {
+	display: flex;
+	justify-content: center;
+	margin-left: 160px;
+}
+
+.setting p {
+	margin-top: 24.2px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: Oswald;
+	font-size: 14px;
+    line-height: 17px;
+}
+
+.work_1 {
+	margin-right: 170px;
+	text-align: center;
+}
+
+.work_2 {
+	margin-right: 170px;
+	text-align: center;
+}
+
+.work_3 {
+	margin-right: 170px;
+	text-align: center;
+}
+
+.work_4 {
+	margin-right: 170px;
+	text-align: center;
+}
+
+.figma {
+	margin-bottom: 250px;
+}
+
+.star {
+	margin-bottom: 110px; 
+}
+
+.star4 {
+	margin-top: 55px;
+	margin-bottom: 110px; 
+}
+
+/*slaid__4
+====================*/
+
+.portfolio {
+	text-align: center;
+	font-family: Oswald;
+	background: #F6F6F6;
+}
+
+.names {
+	padding-top: 112.9px;
+	padding-bottom: 47px;
+	font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+.photos {
+	margin-bottom: 44.8px;
+}
+
+.photos__text {
+	font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 99.1px;
+}
+
+.photos__text a{
+	color: #828282;
+	text-decoration: none;
+}
+
+.photos__text a:hover {
+	color: #070707;
+	transition: 1s ease;
+}
+
+/*footer
+====================*/
+
+.contacts {
+	text-align: center;
+	font-family: Oswald;
+}
+
+.contact {
+	margin-top: 114.2px;
+	margin-bottom: 20px;
+	font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+.contacts__text {
+	margin-bottom: 60px;
+	font-size: 18px;
+    line-height: 22px;
+}
+
+.button {
+	cursor: pointer;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 40px;
+	outline: none;
+	border-radius: 50px;
+	background-color: #070707;
+	font-size: 18px;
+    line-height: 22px;   
+}
+
+.icons {
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+.design {
+	font-size: 14px;
+    line-height: 17px;
+    margin-top: 45.9px;
+    margin-bottom: 123px;
+    color: #828282;
+}
+
+.icon {
+	cursor: pointer;
+	margin-right: 50px;
+}
+
+/*up
+==================== */
+
+#back-top { 
+	position: fixed; 
+	bottom: 30px; 
+	right: 0;
+}
+
+.up {
+	width: 30%;
+}
+
+.up:hover {
+	width: 35%;
+	transition: 0.5s ease;
+}
+
+/*@media
+==================== */
+
+@media screen and (min-width: 1200px) {
+
+.container {
+	width: 1148px;
+	margin: 0 auto;
+ }
+
+}
+
+@media screen and (max-width: 1199px) {
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+ }
+
+ /*header
+====================*/
+
+.head a {
+	margin-right: 120px;
+ }
+
+ .prev {
+	left: 10px;
+}
+
+.next {
+	right: 10px;
+}
+
+
+ /*slaid__3
+====================*/
+
+.work_1 {
+	margin-left: 10px;
+	margin-right: 110px;
+ }
+
+.work_2 {
+	margin-right: 110px;
+ }
+
+.work_3 {
+	margin-right: 110px;
+ }
+
+}
+
+@media screen and (max-width: 991px) {
+
+.container {
+	width: 720px;
+	margin: 0 auto;
+}
+
+/*header
+====================*/
+
+.head a {
+	margin-right: 100px;
+}
+
+/*slaid__1
+====================*/
+
+.name {
+	margin-top: 38px;
+	font-size: 45px;
+}
+
+.adress {
+	margin: 0 200px;
+	margin-top: 110px;
+}
+
+.logo {
+	margin-left: 45px;
+	margin-top: 92px;
+}
+
+/*slaider
+====================*/
+
+.slideshow-container img {
+	width: 100%;
+}
+
+.prev, .next {
+	padding: 12px;
+}
+
+.prev {
+	left: 0;
+}
+
+.next {
+	right: 0;
+}
+
+/*slaid__3
+====================*/
+
+.skill {
+	font-size: 30px;
+}
+
+.setting {
+	flex-wrap: wrap;
+}
+
+.setting img {
+	width: 50%;
+}
+
+.setting p {
+	margin-top: 24.2px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: Oswald;
+	font-size: 14px;
+    line-height: 17px;
+}
+
+.work_1 {
+	margin-right: 170px;
+	text-align: center;
+}
+
+.work_2 {
+	margin-right: 170px;
+	text-align: center;
+	display: block;
+}
+
+
+.work_3 {
+	margin-right: 170px;
+	text-align: center;
+}
+
+.work_4 {
+	margin-right: 170px;
+	text-align: center;
+}
+
+.figma {
+	margin-bottom: 250px;
+}
+
+.star {
+	margin-bottom: 110px; 
+}
+
+.star img, .star4 img {
+	width: 100%;
+}
+
+.star4 {
+	margin-top: 62px;
+	margin-bottom: 110px; 
+}
+
+/*slaid__4
+====================*/
+
+.names {
+	font-size: 30px;
+}
+
+.photos img {
+	width: 90%;
+}
+
+/*footer
+====================*/
+
+.contact {
+	font-size: 30px;
+}
+
+.button {
+	padding: 10px 20px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+.container {
+	width: 540px;
+	margin: 0 auto;
+}
+
+/*burger
+====================*/
+
+body.lock {
+	overflow: hidden;
+}
+
+.menu {
+	display: none;
+}
+
+.burger {
+	right: 0;
+	margin-right: 50px;
+	position: absolute;
+	display: block;
+    margin-top: 50px;
+}
+
+.header__list {
+	display: block;
+}
+
+.head {
+	top: -100%;
+	transition: all 0.3s ease 0s;
+	position: fixed;
+	background-color: #fff;
+	height: 100%;
+	padding-left: 25px;
+	left: 0;
+	width: 100%;
+	overflow: auto;
+	z-index: 5;
+}
+
+.head a {
+	left: 0;
+    font-size: 34px;
+    line-height: 42px;
+    margin-top: 66px;
+    display: block;
+}
+
+.head a:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.close {
+	float: right;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+
+.close.active {
+	top: -100%;
+}
+
+.head.active {
+	top: 0;
+}
+
+.click.active {
+	top: 0;
+}
+
+.active, .dot:hover {
+    background-color: #fff;
+}
+
+.logo {
+	display: none;
+}
+
+.hr {
+	display: none;
+}
+
+/*slaid__1
+====================*/
+
+.prof {
+	justify-content: center;
+	display: flex;
+	width: 100%;
+}
+
+.name {
+	margin-top: 58px;
+	font-size: 30px;
+}
+
+.adress {
+	margin: 0 90px;
+	margin-top: 96px;
+	font-size: 16px;
+}
+
+/*slaider
+====================*/
+
+.slideshow-container img {
+	width: 100%;
+}
+
+.prev, .next {
+	padding: 8px;
+}
+
+.prev {
+	left: 0;
+}
+
+.next {
+	right: 0;
+}
+
+
+/*slaid__2
+====================*/
+
+.About__me {
+	margin-top: 60px;
+}
+
+.about {
+	font-size: 28px;
+	padding-top: 50px;
+}
+
+.text {
+	padding-bottom: 50px;
+	font-size: 16px;
+}
+
+.into {
+	margin-bottom: 10px;
+}
+
+/*slaid__3
+====================*/
+
+.skill {
+	margin-top: 70px;
+	margin-bottom: 39px;
+	font-size: 28px;
+}
+
+.work {
+	font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.setting p {
+	margin-top: 24.2px;
+	margin-bottom: 30px;
+}
+
+.star {
+	margin-bottom: 75px; 
+}
+
+.star4 {
+	margin-bottom: 75px; 
+}
+
+/*slaid__4
+====================*/
+
+.names {
+	padding-top: 75px;
+	font-size: 28px;
+}
+
+.photos__text {
+	font-size: 16px;
+    padding-bottom: 55px;
+}
+
+/*footer
+====================*/
+
+.contact {
+	margin-top: 75px;
+	margin-bottom: 20px;
+	font-size: 28px;
+}
+
+.contacts__text {
+	margin-bottom: 30px;
+	font-size: 18px;
+    line-height: 26px;
+}
+
+.button {
+	padding: 10px 35px;   
+}
+
+.icons {
+	margin-top: 45px;
+	margin-left: 45px;
+}
+
+.design {
+    line-height: 22px;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+
+}
+
+@media screen and (max-width: 575px) {
+
+.container {
+	width: 280px;
+	margin: 0 auto;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/*slaid__1
+====================*/
+
+.prof {
+	margin: 0;
+}
+
+.name {
+	position: absolute;
+	margin-right: 270px;
+	margin-top: 65px;
+	margin-left: 46px;
+	font-size: 47px;
+    line-height: 58px;
+}
+
+.adress {
+	text-align: left;
+    margin: 194px 180px 0 -20px;
+}
+
+/**slaider
+====================*/
+
+.slideshow-container, .dot {
+	display: none;
+}
+
+.phone {
+	display: block;
+	margin-right: 30px;
+	margin-left: -17px; 
+	margin-bottom: 83px;
+}
+
+/*slaid__2
+====================*/
+
+.About__me {
+	margin-top: 0px;
+}
+
+.about {
+	font-size: 34px;
+	padding-top: 81px;
+	margin-bottom: 29.9px;
+}
+
+.text {
+	padding-bottom: 76px;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0 30px 0 29px;
+}
+
+/*slaid__3
+====================*/
+
+.skill {
+	margin-top: 83px;
+	margin-bottom: 50px;
+	font-size: 34px;
+    line-height: 42px;
+}
+
+.work {
+	font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 70.9px;
+}
+
+.setting {
+	width: 100%;
+	margin: 0;
+	margin-left: 82px;
+
+}
+
+.setting p {
+	margin-bottom: 40.4px;
+}
+
+.star {
+	margin-bottom: 80px; 
+}
+
+.star4 {
+	margin-bottom: 98.7px; 
+}
+
+/*slaid__4
+====================*/
+
+.names {
+	padding-top: 81px;
+	padding-bottom: 64.9px;
+}
+
+.photos {
+	margin-bottom: 35px;
+}
+
+.photos__text {
+    padding-bottom: 77.9px;
+}
+
+/*footer
+====================*/
+
+.contact {
+	margin-top: 82px;
+	margin-bottom: 27px;
+}
+
+.contacts__text {
+	margin-bottom: 39.8px;
+}
+
+.button {
+	padding: 6px 45px;
+}
+
+.icons {
+	margin: 48px 30px 0 53px;
+}
+
+.icon {
+	margin-right: 26px;
+}
+
+.design {
+	font-size: 18px;
+    margin-top: 49px;
+    margin-bottom: 90px;
+}
+
+.up {
+	width: 50%;
+	margin-right: -50px;
+
+}
+
+.up:hover {
+	width: 55%;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+
+.container {
+	width: 280px;
+	margin: 0 auto;
+}
+
+/*slaid__1
+====================*/
+
+.name {
+	margin-right: 250px;
+	margin-top: 50px;
+}
+
+.adress {
+    margin: 194px 160px 0 -20px;
+}
+
+/**slaider
+====================*/
+
+.phone {
+	margin-left: -18px;
+
+}
+
+/*slaid__2
+====================*/
+
+.about {
+	font-size: 28px;
+}
+
+.text {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+/*slaid__3
+====================*/
+
+.skill {
+	font-size: 28px;
+}
+
+.work {
+	font-size: 16px;
+}
+
+/*slaid__4
+====================*/
+
+.names {
+	font-size: 28px;
+	font-weight: 400;
+}
+
+/*footer
+====================*/
+
+.icons {
+	margin: 48px 15px 0 35px;
+}
+
+.icon {
+	margin-right: 15px;
+}
+
+.design {
+	font-size: 16px;
+}
+
+.up {
+	width: 45%;
+	margin-right: -100px;
+}
+
+.up:hover {
+	width: 45%;
+}
+
+}
